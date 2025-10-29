@@ -1,0 +1,70 @@
+/Users/sail/Desktop/cb/api_server.py:66: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+
+╔══════════════════════════════════════════════════════════╗
+║         Concha Analyzer API Server                      ║
+╚══════════════════════════════════════════════════════════╝
+
+📦 Model: global_model.pt
+🌐 Host: 0.0.0.0:8000
+🔗 API Docs: http://localhost:8000/docs
+
+Starting server...
+
+INFO:     Started server process [4682]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+🔄 Loading model from global_model.pt
+✅ Model loaded successfully
+🔍 Total detections: 2
+  ✓ Detected: Right CB (confidence: 0.49)
+  ✓ Detected: Left CB (confidence: 0.40)
+INFO:     127.0.0.1:51452 - "POST /infer HTTP/1.1" 200 OK
+🔍 Total detections: 1
+  ✓ Detected: Left deviated (confidence: 0.60)
+INFO:     127.0.0.1:51485 - "POST /infer HTTP/1.1" 200 OK
+🔍 Total detections: 1
+  ✓ Detected: Left deviated (confidence: 0.60)
+INFO:     127.0.0.1:51513 - "POST /infer HTTP/1.1" 200 OK
+🔍 Total detections: 2
+  ✓ Detected: Right CB (confidence: 0.49)
+  ✓ Detected: Left CB (confidence: 0.40)
+INFO:     127.0.0.1:54173 - "POST /infer HTTP/1.1" 200 OK
+🔍 Total detections: 1
+  ✓ Detected: Left deviated (confidence: 0.60)
+INFO:     127.0.0.1:58015 - "POST /infer HTTP/1.1" 200 OK
+🔍 Total detections: 2
+  ✓ Detected: Right CB (confidence: 0.49)
+  ✓ Detected: Left CB (confidence: 0.40)
+INFO:     127.0.0.1:60073 - "POST /infer HTTP/1.1" 200 OK
+🔍 Total detections: 2
+  ✓ Detected: Right CB (confidence: 0.49)
+  ✓ Detected: Left CB (confidence: 0.40)
+INFO:     127.0.0.1:61896 - "POST /infer HTTP/1.1" 200 OK
+🔍 Total detections: 2
+  ✓ Detected: Right CB (confidence: 0.49)
+  ✓ Detected: Left CB (confidence: 0.40)
+INFO:     127.0.0.1:62048 - "POST /infer HTTP/1.1" 200 OK
+🔍 Total detections: 0
+  ✓ No abnormalities detected - Image is NORMAL
+INFO:     127.0.0.1:63466 - "POST /infer HTTP/1.1" 200 OK
+🔍 Total detections: 3
+  ✓ Detected: Right CB (confidence: 0.61)
+  ✓ Detected: Right CB (confidence: 0.52)
+  ✓ Detected: Left deviated (confidence: 0.49)
+INFO:     127.0.0.1:63688 - "POST /infer HTTP/1.1" 200 OK
+🔍 Total detections: 3
+  ✓ Detected: Right CB (confidence: 0.61)
+  ✓ Detected: Right CB (confidence: 0.52)
+  ✓ Detected: Left deviated (confidence: 0.49)
+INFO:     127.0.0.1:64903 - "POST /infer HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [4682]
